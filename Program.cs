@@ -28,8 +28,10 @@ namespace Application
                 res=num1 % num2;
                 break;
             }
-            
+            Console.WriteLine("this is the Final Result");
             Console.WriteLine(res);
+       
+
 
         }
     }
