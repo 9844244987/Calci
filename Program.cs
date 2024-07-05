@@ -12,7 +12,7 @@ namespace Application
             num1=Int32.Parse(Console.ReadLine());
             Console.WriteLine("please Enter the Second Number");
             num2=Int32.Parse(Console.ReadLine());
-            Console.WriteLine("please Enter the Operation need to be performed 1.Add 2.subtract 3.divide 4.modulus");
+            Console.WriteLine("please Enter the Operation need to be performed 1.Add 2.subtract 3.divide 4.modulus");//Enter 1 for addition,2 for subtraction so on
             ope=Int32.Parse(Console.ReadLine());
             switch(ope){
                 case 1:
@@ -28,6 +28,7 @@ namespace Application
                 res=num1 % num2;
                 break;
             }
+            Console.WriteLine("the Final Result:-");
             Console.WriteLine(res);
 
         }
