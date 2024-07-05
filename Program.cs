@@ -28,7 +28,7 @@ namespace Application
                 res=num1 % num2;
                 break;
             }
-            Console.WriteLine("the Final Result:-");
+            
             Console.WriteLine(res);
 
         }
